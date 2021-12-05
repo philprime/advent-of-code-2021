@@ -25,5 +25,11 @@ let package = Package(
         .testTarget(name: "day-3-tests", dependencies: [
             "day-3"
         ]),
+        .executableTarget(name: "day-4", resources: [
+            .process("Resources")
+        ]),
+        .testTarget(name: "day-4-tests", dependencies: [
+            "day-4"
+        ]),
     ]
 )
