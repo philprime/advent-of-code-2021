@@ -1,0 +1,12 @@
+input_dir: Sources/assets
+output_dir: Sources/assets
+
+files:
+  inputs:
+    - Resources
+  outputs:
+    - templateName: structured-swift5
+      output: Assets.swift
+      params:
+        publicAccess: true
+        bundle: CustomBundleFinder.module
