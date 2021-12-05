@@ -39,7 +39,7 @@ enum Movement {
     }
 }
 
-func process(values: [String]) -> (horizontal: Int, depth: Int) {
+public func process(values: [String]) -> (horizontal: Int, depth: Int) {
     var horizontal = 0
     var depth = 0
     // Translate the lines into known movements
@@ -74,7 +74,7 @@ print("\n-- Part 2 --\n")
 
 // MARK: Processing
 
-func processWithAim(values: [String]) -> (horizontal: Int, depth: Int) {
+public func processWithAim(values: [String]) -> (horizontal: Int, depth: Int) {
     var horizontal = 0
     var depth = 0
     var aim = 0
